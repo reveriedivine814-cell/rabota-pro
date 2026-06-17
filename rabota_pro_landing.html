@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Работа.Pro — онлайн вакансии в СНГ с зарплатой в долларах</title>
+  <meta name="description" content="Работа.Pro — онлайн вакансии для кандидатов из СНГ с зарплатой от $1200 до $3000. Подберите удалённую работу и начните через Telegram-бота." />
+
+  <!-- TikTok Pixel Code Start -->
+  <script>
+  !function (w, d, t) {
+    w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie","holdConsent","revokeConsent","grantConsent"],ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);ttq.instance=function(t){for(
+  var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n]);return e},ttq.load=function(e,n){var r="https://analytics.tiktok.com/i18n/pixel/events.js",o=n&&n.partner;ttq._i=ttq._i||{},ttq._i[e]=[],ttq._i[e]._u=r,ttq._t=ttq._t||{},ttq._t[e]=+new Date,ttq._o=ttq._o||{},ttq._o[e]=n||{};n=document.createElement("script")
+  ;n.type="text/javascript",n.async=!0,n.src=r+"?sdkid="+e+"&lib="+t;e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(n,e)};
+
+
+    ttq.load('D8P7JMJC77U2T659LCGG');
+    ttq.page();
+  }(window, document, 'ttq');
+  </script>
+  <!-- TikTok Pixel Code End -->
+
+  <style>
+    :root {
+      --bg: #061126;
+      --bg-2: #0a1b3d;
+      --card: rgba(14, 35, 75, 0.74);
+      --card-2: rgba(9, 25, 56, 0.82);
+      --text: #f4f8ff;
+      --muted: #a9bad8;
+      --accent: #24d3ff;
+      --accent-2: #6c7cff;
+      --green: #46e6a8;
+      --border: rgba(255, 255, 255, 0.12);
+      --shadow: 0 28px 90px rgba(0, 0, 0, 0.34);
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(circle at 12% 10%, rgba(36, 211, 255, 0.22), transparent 30%),
+        radial-gradient(circle at 85% 12%, rgba(108, 124, 255, 0.2), transparent 28%),
+        linear-gradient(180deg, var(--bg) 0%, #08162f 52%, #040b19 100%);
+      min-height: 100vh;
+      overflow-x: hidden;
+    }
+
+    a { color: inherit; text-decoration: none; }
+
+    .container {
+      width: min(1160px, calc(100% - 40px));
+      margin: 0 auto;
+    }
+
+    .nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 26px 0;
+      position: relative;
+      z-index: 5;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-weight: 900;
+      font-size: 24px;
+      letter-spacing: -0.04em;
+    }
+
+    .logo-mark {
+      width: 42px;
+      height: 42px;
+      border-radius: 14px;
+      background: linear-gradient(135deg, var(--accent), var(--accent-2));
+      display: grid;
+      place-items: center;
+      box-shadow: 0 12px 30px rgba(36, 211, 255, 0.22);
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 22px;
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      border: 0;
+      cursor: pointer;
+      border-radius: 999px;
+      padding: 15px 22px;
+      font-weight: 800;
+      background: linear-gradient(135deg, var(--accent), var(--accent-2));
+      color: #031026;
+      box-shadow: 0 16px 38px rgba(36, 211, 255, 0.22);
+      transition: transform .2s ease, box-shadow .2s ease;
+    }
+
+    .btn:hover { transform: translateY(-2px); box-shadow: 0 22px 54px rgba(36, 211, 255, 0.32); }
+
+    .btn.secondary {
+      background: rgba(255, 255, 255, 0.08);
+      color: var(--text);
+      border: 1px solid var(--border);
+      box-shadow: none;
+    }
+
+    .hero {
+      display: grid;
+      grid-template-columns: 1.04fr 0.96fr;
+      gap: 42px;
+      align-items: center;
+      padding: 72px 0 64px;
+      position: relative;
+    }
+
+    .badge {
+      display: inline-flex;
+      gap: 10px;
+      align-items: center;
+      padding: 10px 14px;
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.06);
+      color: #d8e7ff;
+      font-weight: 700;
+      font-size: 14px;
+      margin-bottom: 22px;
+    }
+
+    .pulse {
+      width: 9px;
+      height: 9px;
+      border-radius: 50%;
+      background: var(--green);
+      box-shadow: 0 0 0 8px rgba(70, 230, 168, 0.12);
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(42px, 6vw, 76px);
+      line-height: 0.96;
+      letter-spacing: -0.07em;
+    }
+
+    .gradient-text {
+      background: linear-gradient(135deg, #fff, #9beaff 45%, #aeb7ff);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+
+    .lead {
+      margin: 24px 0 0;
+      max-width: 620px;
+      color: var(--muted);
+      font-size: 20px;
+      line-height: 1.65;
+    }
+
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      margin-top: 34px;
+    }
+
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 14px;
+      margin-top: 34px;
+    }
+
+    .stat {
+      padding: 18px;
+      border: 1px solid var(--border);
+      border-radius: 22px;
+      background: rgba(255, 255, 255, 0.055);
+    }
+
+    .stat strong { display: block; font-size: 24px; }
+    .stat span { color: var(--muted); font-size: 13px; }
+
+    .hero-card {
+      padding: 22px;
+      border: 1px solid var(--border);
+      border-radius: 34px;
+      background: linear-gradient(180deg, rgba(17, 43, 91, 0.86), rgba(7, 20, 45, 0.9));
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(18px);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero-card::before {
+      content: "";
+      position: absolute;
+      inset: -80px -100px auto auto;
+      width: 230px;
+      height: 230px;
+      border-radius: 50%;
+      background: rgba(36, 211, 255, 0.18);
+      filter: blur(16px);
+    }
+
+    .mini-window {
+      position: relative;
+      border-radius: 24px;
+      background: var(--card-2);
+      border: 1px solid var(--border);
+      overflow: hidden;
+    }
+
+    .window-top {
+      display: flex;
+      gap: 8px;
+      padding: 16px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .dot { width: 11px; height: 11px; border-radius: 50%; background: #ff6b6b; }
+    .dot:nth-child(2) { background: #ffd166; }
+    .dot:nth-child(3) { background: #46e6a8; }
+
+    .job-preview { padding: 20px; }
+
+    .preview-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      padding: 16px;
+      border-radius: 18px;
+      background: rgba(255, 255, 255, 0.06);
+      margin-bottom: 12px;
+    }
+
+    .preview-row h3 { margin: 0 0 5px; font-size: 16px; }
+    .preview-row p { margin: 0; color: var(--muted); font-size: 13px; }
+    .salary { color: var(--green); font-weight: 900; white-space: nowrap; }
+
+    section { padding: 64px 0; }
+
+    .section-head {
+      display: flex;
+      align-items: end;
+      justify-content: space-between;
+      gap: 24px;
+      margin-bottom: 28px;
+    }
+
+    h2 {
+      margin: 0;
+      font-size: clamp(30px, 4vw, 48px);
+      letter-spacing: -0.05em;
+    }
+
+    .section-head p {
+      margin: 0;
+      max-width: 440px;
+      color: var(--muted);
+      line-height: 1.6;
+    }
+
+    .jobs {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 16px;
+    }
+
+    .job {
+      grid-column: span 1;
+      padding: 22px;
+      border-radius: 26px;
+      border: 1px solid var(--border);
+      background: var(--card);
+      min-height: 270px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: transform .2s ease, border-color .2s ease, background .2s ease;
+    }
+
+    .job:hover {
+      transform: translateY(-6px);
+      border-color: rgba(36, 211, 255, 0.5);
+      background: rgba(19, 48, 102, 0.86);
+    }
+
+    .job h3 { margin: 14px 0 10px; font-size: 21px; letter-spacing: -0.03em; }
+    .job p { margin: 0; color: var(--muted); line-height: 1.55; font-size: 14px; }
+
+    .tag {
+      display: inline-flex;
+      width: fit-content;
+      padding: 8px 11px;
+      border-radius: 999px;
+      background: rgba(36, 211, 255, 0.1);
+      color: #9beaff;
+      font-size: 12px;
+      font-weight: 800;
+    }
+
+    .job-bottom {
+      margin-top: 18px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .job .salary { font-size: 22px; }
+
+    .how {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+    }
+
+    .step {
+      padding: 28px;
+      border: 1px solid var(--border);
+      border-radius: 30px;
+      background: rgba(255, 255, 255, 0.055);
+    }
+
+    .num {
+      width: 44px;
+      height: 44px;
+      display: grid;
+      place-items: center;
+      border-radius: 15px;
+      background: linear-gradient(135deg, var(--accent), var(--accent-2));
+      color: #061126;
+      font-weight: 900;
+      margin-bottom: 18px;
+    }
+
+    .step h3 { margin: 0 0 10px; }
+    .step p { margin: 0; color: var(--muted); line-height: 1.6; }
+
+    .cta {
+      position: relative;
+      text-align: center;
+      padding: 56px 28px;
+      border: 1px solid var(--border);
+      border-radius: 36px;
+      background: linear-gradient(135deg, rgba(36, 211, 255, 0.14), rgba(108, 124, 255, 0.14));
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+
+    .cta p {
+      max-width: 650px;
+      margin: 18px auto 30px;
+      color: var(--muted);
+      line-height: 1.65;
+      font-size: 18px;
+    }
+
+    footer {
+      padding: 30px 0 46px;
+      color: var(--muted);
+      text-align: center;
+      font-size: 14px;
+    }
+
+    @media (max-width: 980px) {
+      .hero { grid-template-columns: 1fr; padding-top: 36px; }
+      .jobs { grid-template-columns: repeat(2, 1fr); }
+      .how { grid-template-columns: 1fr; }
+      .section-head { align-items: flex-start; flex-direction: column; }
+    }
+
+    @media (max-width: 640px) {
+      .container { width: min(100% - 24px, 1160px); }
+      .nav-links { display: none; }
+      .stats, .jobs { grid-template-columns: 1fr; }
+      .hero-actions .btn { width: 100%; }
+      .preview-row { align-items: flex-start; flex-direction: column; }
+      section { padding: 44px 0; }
+    }
+  </style>
+</head>
+<body>
+  <header class="container nav">
+    <a href="#" class="logo" aria-label="Работа.Pro">
+      <span class="logo-mark">₽</span>
+      <span>Работа<span class="gradient-text">.Pro</span></span>
+    </a>
+    <nav class="nav-links" aria-label="Навигация">
+      <a href="#jobs">Вакансии</a>
+      <a href="#how">Как начать</a>
+      <a href="https://t.me/RabotaRU_Probot" target="_blank" rel="noopener">Telegram-бот</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="container hero">
+      <div>
+        <div class="badge"><span class="pulse"></span> Онлайн-вакансии для кандидатов из СНГ</div>
+        <h1>Работа в онлайне с оплатой <span class="gradient-text">в долларах</span></h1>
+        <p class="lead">Подбирайте удалённые вакансии от $1200 до $3000, проходите быстрый отбор и получайте предложения прямо через Telegram-бота Работа.Pro.</p>
+        <div class="hero-actions">
+          <a class="btn" href="https://t.me/RabotaRU_Probot" target="_blank" rel="noopener" onclick="if(window.ttq){ttq.track('ClickButton', {button: 'hero_telegram'});}">Открыть Telegram-бота</a>
+          <a class="btn secondary" href="#jobs">Смотреть вакансии</a>
+        </div>
+        <div class="stats" aria-label="Преимущества">
+          <div class="stat"><strong>$1200+</strong><span>минимальная зарплата</span></div>
+          <div class="stat"><strong>5 мин</strong><span>быстрый старт в боте</span></div>
+          <div class="stat"><strong>СНГ</strong><span>работайте из любой страны</span></div>
+        </div>
+      </div>
+
+      <aside class="hero-card" aria-label="Примеры вакансий">
+        <div class="mini-window">
+          <div class="window-top"><span class="dot"></span><span class="dot"></span><span class="dot"></span></div>
+          <div class="job-preview">
+            <div class="preview-row">
+              <div><h3>Менеджер чатов</h3><p>Удалённо · опыт не обязателен</p></div>
+              <span class="salary">$1200–1800</span>
+            </div>
+            <div class="preview-row">
+              <div><h3>Sales Manager</h3><p>Онлайн-продажи · СНГ</p></div>
+              <span class="salary">$2000–3000</span>
+            </div>
+            <div class="preview-row">
+              <div><h3>Оператор поддержки</h3><p>Гибкий график · обучение</p></div>
+              <span class="salary">$1300–1900</span>
+            </div>
+          </div>
+        </div>
+      </aside>
+    </section>
+
+    <section id="jobs" class="container">
+      <div class="section-head">
+        <h2>Актуальные вакансии</h2>
+        <p>Выберите подходящую роль и нажмите кнопку, чтобы перейти в Telegram-бота для отклика.</p>
+      </div>
+
+      <div class="jobs">
+        <article class="job">
+          <div>
+            <span class="tag">Без опыта</span>
+            <h3>Менеджер онлайн-чатов</h3>
+            <p>Обработка входящих заявок, ответы клиентам, помощь с регистрацией и сопровождение по скриптам.</p>
+          </div>
+          <div class="job-bottom">
+            <span class="salary">$1200–1800</span>
+            <a class="btn" href="https://t.me/RabotaRU_Probot" target="_blank" rel="noopener" onclick="if(window.ttq){ttq.track('ClickButton', {vacancy: 'chat_manager'});}">Откликнуться</a>
+          </div>
+        </article>
+
+        <article class="job">
+          <div>
+            <span class="tag">Продажи</span>
+            <h3>Sales Manager</h3>
+            <p>Консультации клиентов, закрытие заявок, работа с CRM и выполнение плана по онлайн-продажам.</p>
+          </div>
+          <div class="job-bottom">
+            <span class="salary">$2000–3000</span>
+            <a class="btn" href="https://t.me/RabotaRU_Probot" target="_blank" rel="noopener" onclick="if(window.ttq){ttq.track('ClickButton', {vacancy: 'sales_manager'});}">Откликнуться</a>
+          </div>
+        </article>
+
+        <article class="job">
+          <div>
+            <span class="tag">Поддержка</span>
+            <h3>Оператор поддержки</h3>
+            <p>Помощь пользователям в мессенджерах, решение типовых вопросов и передача сложных задач специалистам.</p>
+          </div>
+          <div class="job-bottom">
+            <span class="salary">$1300–1900</span>
+            <a class="btn" href="https://t.me/RabotaRU_Probot" target="_blank" rel="noopener" onclick="if(window.ttq){ttq.track('ClickButton', {vacancy: 'support_operator'});}">Откликнуться</a>
+          </div>
+        </article>
+
+        <article class="job">
+          <div>
+            <span class="tag">Маркетинг</span>
+            <h3>Ассистент маркетолога</h3>
+            <p>Подготовка контента, сбор статистики, помощь с рекламными кабинетами и оформление отчётов.</p>
+          </div>
+          <div class="job-bottom">
+            <span class="salary">$1500–2200</span>
+            <a class="btn" href="https://t.me/RabotaRU_Probot" target="_blank" rel="noopener" onclick="if(window.ttq){ttq.track('ClickButton', {vacancy: 'marketing_assistant'});}">Откликнуться</a>
+          </div>
+        </article>
+
+        <article class="job">
+          <div>
+            <span class="tag">Аккаунты</span>
+            <h3>Account Manager</h3>
+            <p>Ведение клиентов, контроль задач, коммуникация с командой и улучшение клиентского сервиса.</p>
+          </div>
+          <div class="job-bottom">
+            <span class="salary">$1800–2600</span>
+            <a class="btn" href="https://t.me/RabotaRU_Probot" target="_blank" rel="noopener" onclick="if(window.ttq){ttq.track('ClickButton', {vacancy: 'account_manager'});}">Откликнуться</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="how" class="container">
+      <div class="section-head">
+        <h2>Как начать</h2>
+        <p>Весь путь занимает несколько простых шагов — без сложных форм и долгих ожиданий.</p>
+      </div>
+      <div class="how">
+        <div class="step">
+          <div class="num">1</div>
+          <h3>Откройте бота</h3>
+          <p>Нажмите кнопку и перейдите в Telegram-бота Работа.Pro.</p>
+        </div>
+        <div class="step">
+          <div class="num">2</div>
+          <h3>Выберите вакансию</h3>
+          <p>Укажите опыт, желаемую зарплату и удобный график работы.</p>
+        </div>
+        <div class="step">
+          <div class="num">3</div>
+          <h3>Получите отклик</h3>
+          <p>Менеджер свяжется с вами и расскажет следующие шаги по вакансии.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="container">
+      <div class="cta">
+        <h2>Готовы найти онлайн-работу?</h2>
+        <p>Перейдите в Telegram-бота, выберите вакансию и оставьте заявку. Подбор доступен для кандидатов из стран СНГ.</p>
+        <a class="btn" href="https://t.me/RabotaRU_Probot" target="_blank" rel="noopener" onclick="if(window.ttq){ttq.track('ClickButton', {button: 'final_telegram'});}">Перейти в Telegram</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="container">
+    © 2026 Работа.Pro · Онлайн-вакансии с оплатой в долларах
+  </footer>
+</body>
+</html>
